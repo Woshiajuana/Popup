@@ -1,0 +1,31 @@
+//遮罩的不透明度设置
+%popup-background-color{
+  background-color: #000;
+  background: rgba(55,58,71,.9);
+  filter: Alpha(opacity=50); /* IE */
+}
+//定义变量
+$popup-width:600px;//主体的宽度
+$popup-background-color:#d84646;//主体的背景颜色
+$popup-border-color:#d84646;//主体的边框颜色
+
+$popup-close-color:#fff;//关闭按钮X的颜色
+$popup-close-background-color:#bd3132;//关闭按钮X的颜色
+$popup-close-hover-background-color:#bd3132;//关闭按钮X的颜色
+
+$popup-btn-color:#fff;//按钮字体颜色
+$popup-btn-background-color:#d84646;//按钮背景颜色
+$popup-btn-hover-background-color:#bd3132;//按钮hover背景颜色
+
+$popup-title-background-color:#d84646;//标题背景颜色
+$popup-title-font-color:#fff;//标题字体颜色
+$popup-title-font-size:18px;//标题字体大小
+
+$popup-card-color:#fff;//卡玛字体颜色
+$popup-card-background-color:#333;//卡玛背景颜色
+
+$popup-content-background-color:#fff;//内容背景颜色
+$popup-content-font-color:#333;//内容字体颜色
+$popup-content-font-size:14px;//内容字体大小
+
+$popup-record-border-color:#999;//纪录边框颜色
